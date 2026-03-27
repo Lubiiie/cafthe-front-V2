@@ -20,7 +20,7 @@ const Login = () => {
         e.preventDefault();
         setErrorMsg("");
 
-        const baseUrl = import.meta.env.VITE_API_URL;
+        const baseUrl = import.meta.env.VITE_API_URL || "https://cafthe.acourtois.dev-campus.fr";
         const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
 
         try {
