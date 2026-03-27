@@ -20,7 +20,7 @@ const Login = () => {
         e.preventDefault();
         setErrorMsg("");
 
-        const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+        const baseUrl = import.meta.env.VITE_API_URL;
         const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
 
         try {

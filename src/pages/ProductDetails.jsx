@@ -17,7 +17,7 @@ const ProductDetails = () => {
     const [produit, setProduit] = useState(null);
     const [loading, setLoading] = useState(true);
     const [quantity, setQuantity] = useState(1); // Quantité sélectionnée par l'utilisateur
-    const apiUrl = "http://localhost:3000";
+    const apiUrl = "https://cafthe.acourtois.dev-campus.fr";
 
     // --- CHARGEMENT DES DONNÉES DU PRODUIT ---
     useEffect(() => {

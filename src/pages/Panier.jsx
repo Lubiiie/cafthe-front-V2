@@ -17,7 +17,7 @@ const Panier = () => {
     const { user } = useAuth();
 
     const navigate = useNavigate();
-    const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+    const apiUrl = import.meta.env.VITE_API_URL;
 
     /**
      * Gère la redirection : vers la commande si connecté, vers le login sinon.

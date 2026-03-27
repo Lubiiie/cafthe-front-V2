@@ -20,7 +20,7 @@ const Commande = () => {
     const [cgvAccepted, setCgvAccepted] = useState(false); // État de la checkbox légale
     const [isHovered, setIsHovered] = useState(null);
 
-    const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+    const apiUrl = import.meta.env.VITE_API_URL;
 
     // --- SÉCURITÉ : Redirection si panier vide ---
     useEffect(() => {

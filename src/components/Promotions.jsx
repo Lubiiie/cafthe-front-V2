@@ -17,7 +17,7 @@ const Promotions = () => {
     const scrollRef = useRef(null);
     const navigate = useNavigate();
     const { addToCart } = useCard();
-    const apiUrl = "http://localhost:3000";
+    const apiUrl = "https://cafthe.acourtois.dev-campus.fr";
 
     // --- EFFETS (Side Effects) ---
     /** * Récupère tous les produits et filtre ceux qui possèdent un badge promotionnel

@@ -21,7 +21,7 @@ const Catalogue = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const { addToCart } = useCard(); // Consommation du contexte Panier
-    const apiUrl = "http://localhost:3000";
+    const apiUrl = "https://cafthe.acourtois.dev-campus.fr";
 
     // --- LOGIQUE D'URL (Query Params) ---
     const queryParams = new URLSearchParams(location.search);

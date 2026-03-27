@@ -30,7 +30,7 @@ const Compte = () => {
     const [toastMessage, setToastMessage] = useState("");
     const [hoveredBtn, setHoveredBtn] = useState(null); // Gestion des effets de survol
 
-    const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+    const apiUrl = import.meta.env.VITE_API_URL;
 
     // --- CHARGEMENT DES DONNÉES ---
     useEffect(() => {

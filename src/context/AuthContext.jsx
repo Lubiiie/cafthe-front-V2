@@ -20,7 +20,7 @@ export function AuthProvider({ children }) {
 
     // Gère l'état d'attente pendant la vérification du token avec le backend
     const [loading, setLoading] = useState(true);
-    const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+    const baseUrl = import.meta.env.VITE_API_URL;
 
     // --- EFFETS (Side Effects) ---
     /**
